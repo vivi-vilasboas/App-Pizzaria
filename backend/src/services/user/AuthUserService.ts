@@ -25,10 +25,10 @@ class AuthUserService {
             throw new Error("Password incorrect")
         }
         
-        const token = sign(
+        const token = sign (
             {
-            name: user.name,
-            email: user.email,
+                name: user.name,
+                email: user.email,
             },
             process.env.JWT_SECRET,
             {
