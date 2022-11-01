@@ -3,7 +3,7 @@ import { CreateCategoryService } from '../../services/category/CreateCategorySer
 
 class CreateCategoryController {
     async handle(req: Request, res: Response) {
-        const { name } = req.body
+        const { name } = req.body;
         
         const createCategoryService = new CreateCategoryService();
 
@@ -11,7 +11,7 @@ class CreateCategoryController {
             name
         });
 
-        return res.json(category)
+        return res.json(category);
     }
 }
 

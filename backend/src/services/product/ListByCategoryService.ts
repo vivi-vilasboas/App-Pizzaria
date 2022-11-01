@@ -13,7 +13,7 @@ class ListByCategoryService {
             }
         })
 
-        return findByCategory
+        return findByCategory;
 
     }
 }
