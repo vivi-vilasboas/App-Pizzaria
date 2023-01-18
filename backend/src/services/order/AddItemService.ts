@@ -1,4 +1,3 @@
-import { PrismaClientRustPanicError } from "@prisma/client/runtime";
 import prismaClient from "../../prisma";
 
 interface ItemRequest {
